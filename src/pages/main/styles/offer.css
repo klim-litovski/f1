@@ -1,0 +1,24 @@
+/* List */
+.offer__list {
+	padding: 0;
+	margin: 0;
+	display: inline-grid;
+	grid-auto-flow: column;
+	column-gap: 8px;
+}
+
+/* Item */
+.offer__item {
+	list-style: none;
+}
+
+/* Heading */
+.offer__heading {
+	margin-bottom: 16px;
+}
+
+/* Img */
+.offer__img {
+	height: 256px;
+	object-fit: fill;
+}

@@ -12,6 +12,11 @@
 	line-height: 48px;
 }
 
+.heading--tertiary {
+	font-size: 24px;
+	line-height: 32px;
+}
+
 .heading--center {
 	text-align: center;
 }

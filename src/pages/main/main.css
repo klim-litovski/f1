@@ -1,9 +1,6 @@
 @import "../../vars.css";
 @import "../../fonts.css";
 
-@import "./styles/welcome.css";
-@import "./styles/distributors.css";
-@import "./styles/partners.css";
 
 @import "../../styles/container.css";
 @import "../../styles/header.css";
@@ -14,3 +11,9 @@
 @import "../../styles/nav.css";
 @import "../../styles/heading.css";
 @import "../../styles/subheading.css";
+@import "../../styles/product-card.css";
+
+@import "./styles/welcome.css";
+@import "./styles/distributors.css";
+@import "./styles/partners.css";
+@import "./styles/offer.css";

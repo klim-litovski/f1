@@ -17,3 +17,8 @@
 	padding-top: var(--header-height);
 	box-sizing: border-box;
 }
+
+/* Distributors */
+.page__distributors {
+	margin-bottom: 32px;
+}

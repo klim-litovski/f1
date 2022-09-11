@@ -1,0 +1,64 @@
+.product-card {
+	background-color: #181818;
+	max-width: 183px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	padding: 8px;
+}
+
+/* Discount */
+.product-card__discount {
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 0 8px;
+	font-family: var(--font-family-primary);
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	display: inline-block;
+}
+
+/* Heading */
+.product-card__heading {
+	--line-height: 24px;
+	--line-clamp: 2;
+
+	font-size: 16px;
+	line-height: var(--line-height);
+	font-family: var(--font-family-primary);
+	font-weight: 700;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 8px;
+	height: calc(var(--line-height) * var(--line-clamp));
+	display: -webkit-box;
+	-webkit-line-clamp: var(--line-clamp);
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.product-card__heading-wrapper {
+	display: flex;
+	align-items: flex-start;
+}
+
+/* Total price */
+.product-card__total-price {
+	font-family: var(--font-family-primary);
+	font-size: 24px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 700;
+	display: block;
+	margin-bottom: 8px;
+}
+
+/* Price */
+.product-card__price {
+	font-size: 16px;
+	line-height: 24px;
+	color: #4B4B4B;
+	text-decoration: line-through;
+	font-family: var(--font-family-primary);
+	font-weight: 300;
+}
