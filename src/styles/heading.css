@@ -6,3 +6,12 @@
 	margin: 0;
 	font-weight: 700;
 }
+
+.heading--secondary {
+	font-size: 40px;
+	line-height: 48px;
+}
+
+.heading--center {
+	text-align: center;
+}

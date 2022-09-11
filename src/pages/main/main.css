@@ -2,6 +2,8 @@
 @import "../../fonts.css";
 
 @import "./styles/welcome.css";
+@import "./styles/distributors.css";
+@import "./styles/partners.css";
 
 @import "../../styles/container.css";
 @import "../../styles/header.css";
