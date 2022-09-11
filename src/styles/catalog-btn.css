@@ -1,0 +1,19 @@
+.catalog-btn {
+	color: var(--text-color-primary);
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	font-family: var(--font-family-primary);
+	font-size: 16px;
+	line-height: 24px;
+	display: inline-grid;
+	grid-auto-flow: column;
+	align-items: center;
+	column-gap: 16px;
+}
+
+/* Img */
+.catalog-btn__img {
+	width: 20px;
+	height: 20px;
+}

@@ -1,0 +1,33 @@
+.header {
+	background-color: #E4E4E4;
+}
+
+/* Body */
+.header__body {
+	display: flex;
+	align-items: center;
+	height: var(--header-height);
+}
+
+/* Logo */
+.header__logo {
+	margin-right: 32px;
+}
+
+/* Catalog btn */
+.header__catalog-btn {
+	margin-right: 74px;
+}
+
+/* Nav */
+.header__nav {
+	height: 100%;
+}
+
+/* Nav wrapper */
+.header__nav-wrapper {
+	display: grid;
+	grid-auto-flow: column;
+	column-gap: 64px;
+	margin-left: auto;
+}

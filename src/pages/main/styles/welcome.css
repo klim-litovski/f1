@@ -1,0 +1,34 @@
+.welcome {
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.welcome:after {
+	position: absolute;
+	content: url("../../../img/computer.png");
+	top: calc(64px + var(--header-height));
+	right: 64px;
+	z-index: -10;
+}
+
+.welcome:before {
+	--width: 560px;
+
+	content: "";
+	position: absolute;
+	width: 560px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	bottom: 16px;
+	left: calc(50% - var(--width) / 2);
+}
+
+/* Article */
+.welcome__article {
+	padding-top: 128px;
+	display: grid;
+	max-width: 560px;
+	row-gap: 16px;
+}

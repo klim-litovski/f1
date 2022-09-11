@@ -1,0 +1,9 @@
+:root {
+	--font-family-default: sans-serif;
+	--font-family-primary: 'Roboto', var(--font-family-default);
+	--text-color-primary: #262626;
+}
+
+:root {
+	--header-height: 64px;
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="list" viewBox="0 0 20 14" fill="none">
+        <path d="M6.58333 1.5H18.5M6.58333 7H18.5M6.58333 12.5H18.5M2 1.5H2.00962M2 7H2.00962M2 12.5H2.00962" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="search" viewBox="0 0 24 24" fill="none">
+        <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="user" viewBox="0 0 24 24" fill="none">
+        <path d="M22 22V19.7778C22 18.5991 21.4732 17.4686 20.5355 16.6351C19.5979 15.8016 18.3261 15.3334 17 15.3334H7C5.67392 15.3334 4.40215 15.8016 3.46447 16.6351C2.52678 17.4686 2 18.5991 2 19.7778V22" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12 10.8889C14.7614 10.8889 17 8.89904 17 6.44444C17 3.98985 14.7614 2 12 2C9.23858 2 7 3.98985 7 6.44444C7 8.89904 9.23858 10.8889 12 10.8889Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="cart" viewBox="0 0 24 23" fill="none">
+        <path d="M19.2727 20.5909C19.7748 20.5909 20.1818 20.1838 20.1818 19.6818C20.1818 19.1797 19.7748 18.7727 19.2727 18.7727C18.7707 18.7727 18.3636 19.1797 18.3636 19.6818C18.3636 20.1838 18.7707 20.5909 19.2727 20.5909Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M9.27249 20.5909C9.77457 20.5909 10.1816 20.1838 10.1816 19.6818C10.1816 19.1797 9.77457 18.7727 9.27249 18.7727C8.77042 18.7727 8.3634 19.1797 8.3634 19.6818C8.3634 20.1838 8.77042 20.5909 9.27249 20.5909Z" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M2 1.5H5.63636L8.07273 13.6727C8.15586 14.0913 8.38355 14.4672 8.71595 14.7348C9.04835 15.0024 9.46427 15.1445 9.89091 15.1364H18.7273C19.1539 15.1445 19.5698 15.0024 19.9022 14.7348C20.2346 14.4672 20.4623 14.0913 20.5455 13.6727L22 6.04545H6.54545" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+</svg>
