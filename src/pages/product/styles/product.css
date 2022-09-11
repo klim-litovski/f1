@@ -1,0 +1,16 @@
+/* Body */
+.product__body {
+	padding-top: 64px;
+}
+
+/* Heading */
+.product-heading {
+	margin-bottom: 32px;
+}
+
+/* Row */
+.product__row {
+	display: inline-grid;
+	grid-auto-flow: column;
+	column-gap: 16px;
+}

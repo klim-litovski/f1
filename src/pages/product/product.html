@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="page" lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./product.css">
+	<title>F1</title>
+</head>
+<body class="page__body">
+	<header class="header page__header">
+	<div class="container">
+		<div class="header__body">
+			<a class="logo header__logo" href="/">
+				<img class="logo__img" src="../../img/logo.svg" alt="F1">
+			</a>
+			<button class="catalog-btn header__catalog-btn">
+				<svg class="catalog-btn__img">
+					<use href="../../img/header-sprite.svg#list"></use>
+				</svg>
+				Каталог
+			</button>
+			<label class="search">
+				<input class="search__input" type="search" placeholder="Поиск по каталогу">
+				<svg class="search__icon">
+					<use href="../../img/header-sprite.svg#search"></use>
+				</svg>
+			</label>
+			<div class="header__nav-wrapper">
+				<nav class="nav header__nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a class="nav__link" href="#">О нас</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#">Отзывы</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="nav header__nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a class="nav__link" href="#">
+								<svg class="nav__link-img">
+									<use href="../../img/header-sprite.svg#cart"></use>
+								</svg>
+								Корзина
+							</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#">
+								<svg class="nav__link-img">
+									<use href="../../img/header-sprite.svg#user"></use>
+								</svg>
+								Войти
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+	<div class="product page__product">
+		<div class="container">
+			<div class="product__body">
+				<h1 class="heading heading--tertiary product-heading">Корпус для ПК DK351 Black ATX</h1>
+				<div class="product__row">
+					<div class="product-preview">
+						<img class="product-preview__img" src="../../img/pc3.png" alt="product">
+					</div>
+					<div class="product-description">
+						<h3 class="heading heading--quaternary product-description__heading">Описание</h3>
+						<table class="product-description-table product-description__table">
+							<tr class="product-description-table__row">
+								<th class="product-description-table__item">Тип</th>
+								<td class="product-description-table__item">Full Tower</td>
+							</tr>
+							<tr class="product-description-table__row">
+								<th class="product-description-table__item">Форм-фактор</th>
+								<td class="product-description-table__item">E-ATX/ M-ATX/ ATX</td>
+							</tr>
+							<tr class="product-description-table__row">
+								<th class="product-description-table__item">Количество отсеков 2.5”</th>
+								<td class="product-description-table__item">2</td>
+							</tr>
+							<tr class="product-description-table__row">
+								<th class="product-description-table__item">Количество отсеков 3.5”</th>
+								<td class="product-description-table__item">3</td>
+							</tr>
+							<tr class="product-description-table__row">
+								<th class="product-description-table__item">Макс. длина видеокарты, мм</th>
+								<td class="product-description-table__item">340</td>
+							</tr>
+						</table>
+						<a class="product-description__link" href="#">Все технические характеристики</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

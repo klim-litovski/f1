@@ -22,3 +22,8 @@
 .page__distributors {
 	margin-bottom: 32px;
 }
+
+/* Product */
+.page__product {
+	padding-top: var(--header-height);
+}

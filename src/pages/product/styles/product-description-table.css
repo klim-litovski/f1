@@ -1,0 +1,36 @@
+.product-description-table {
+	border-spacing: 8px;
+	width: 484px;
+}
+
+/* Row */
+.product-description-table__row {
+	position: relative;
+}
+
+.product-description-table__row:after {
+	content: '';
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+}
+
+/* Item */
+.product-description-table__item {
+	font-family: var(--font-family-primary);
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 400;
+}
+
+th.product-description-table__item {
+	text-align: start;
+}
+
+td.product-description-table__item {
+	text-align: end;
+}
