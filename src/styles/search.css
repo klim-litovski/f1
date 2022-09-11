@@ -1,11 +1,11 @@
 .search {
 	position: relative;
-	color: var(--text-color-primary);
+	color: var(--color-primary);
 }
 
 /* Input */
 .search__input {
-	border: var(--text-color-primary) 2px solid;
+	border: var(--color-primary) 2px solid;
 	border-radius: 50px;
 	background-color: transparent;
 	font-family: var(--font-family-primary);

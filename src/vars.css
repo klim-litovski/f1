@@ -1,7 +1,9 @@
 :root {
 	--font-family-default: sans-serif;
 	--font-family-primary: 'Roboto', var(--font-family-default);
-	--text-color-primary: #262626;
+	--color-primary: #262626;
+	--color-secondary: #181818;
+	--color-tertiary: #872371;
 }
 
 :root {

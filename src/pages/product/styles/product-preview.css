@@ -1,7 +1,7 @@
 .product-preview {
 	width: 272px;
 	height: 384px;
-	background-color: #181818;
+	background-color: var(--color-secondary);
 	border-radius: 16px;
 }
 

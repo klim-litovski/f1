@@ -13,7 +13,7 @@
 
 /* Link */
 .nav__link {
-	color: var(--text-color-primary);
+	color: var(--color-primary);
 	font-size: 16px;
 	line-height: 24px;
 	text-decoration: none;

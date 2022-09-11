@@ -1,0 +1,30 @@
+.product-action {
+	display: inline-grid;
+	row-gap: 32px;
+	width: 368px;
+	justify-content: start;
+	background-color: var(--color-secondary);
+	box-sizing: border-box;
+	padding: 16px;
+	border-radius: 16px;
+	position: relative;
+}
+
+/* Price */
+.product-action__price {
+	font-family: var(--font-family-primary);
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: #fff;
+}
+
+/* Like */
+.product-action__like {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: 16px;
+	top: 16px;
+}

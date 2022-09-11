@@ -13,4 +13,5 @@
 	display: inline-grid;
 	grid-auto-flow: column;
 	column-gap: 16px;
+	align-items: start;
 }

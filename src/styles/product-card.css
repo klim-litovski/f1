@@ -1,5 +1,5 @@
 .product-card {
-	background-color: #181818;
+	background-color: var(--color-secondary);
 	max-width: 183px;
 	border-radius: 8px;
 	box-sizing: border-box;
