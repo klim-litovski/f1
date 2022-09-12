@@ -26,4 +26,5 @@
 /* Product */
 .page__product {
 	padding-top: var(--header-height);
+	margin-bottom: 48px;
 }

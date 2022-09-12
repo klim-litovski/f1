@@ -15,3 +15,14 @@
 	column-gap: 16px;
 	align-items: start;
 }
+
+/* Offer */
+.product__offer {
+	width: 368px;
+}
+
+/* Rhs */
+.product__rhs {
+	display: inline-grid;
+	row-gap: 16px;
+}

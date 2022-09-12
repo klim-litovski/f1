@@ -10,6 +10,8 @@
 @import "../../styles/nav.css";
 @import "../../styles/heading.css";
 @import "../../styles/btn.css";
+@import "../../styles/offer.css";
+@import "../../styles/product-card.css";
 
 @import "./styles/product.css";
 @import "./styles/product-preview.css";

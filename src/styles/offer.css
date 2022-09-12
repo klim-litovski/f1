@@ -5,6 +5,11 @@
 	display: inline-grid;
 	grid-auto-flow: column;
 	column-gap: 8px;
+	width: 100%;
+}
+
+.offer__list--scroll {
+	overflow-x: auto;
 }
 
 /* Item */

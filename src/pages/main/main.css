@@ -16,4 +16,4 @@
 @import "./styles/welcome.css";
 @import "./styles/distributors.css";
 @import "./styles/partners.css";
-@import "./styles/offer.css";
+@import "../../styles/offer.css";
