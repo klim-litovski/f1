@@ -15,6 +15,6 @@
 
 @import "./styles/product.css";
 @import "./styles/product-preview.css";
-@import "./styles/product-description-table.css";
-@import "./styles/product-description.css";
+@import "styles/spec-table.css";
+@import "styles/spec.css";
 @import "./styles/product-action.css";

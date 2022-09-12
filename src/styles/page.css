@@ -1,3 +1,7 @@
+.page {
+	scroll-behavior: smooth;
+}
+
 /* Body */
 .page__body {
 	margin: 0;
@@ -26,5 +30,10 @@
 /* Product */
 .page__product {
 	padding-top: var(--header-height);
+	margin-bottom: 48px;
+}
+
+/* Offer */
+.page__offer {
 	margin-bottom: 48px;
 }

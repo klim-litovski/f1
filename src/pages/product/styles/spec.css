@@ -1,0 +1,36 @@
+/* Heading */
+.spec__heading {
+	margin-bottom: 16px;
+}
+
+/* Table */
+.spec__table--mb-2 {
+	margin-bottom: 16px;
+}
+
+/* Link */
+.spec__link {
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--color-tertiary);
+	font-family: var(--font-family-primary);
+	font-weight: 700;
+	display: block;
+	text-align: center;
+}
+
+.spec__link:hover {
+	text-decoration: none;
+}
+
+/* Content */
+.spec__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 32px;
+	column-gap: 16px;
+	background-color: var(--color-secondary);
+	border-radius: 16px;
+	padding: 32px;
+	box-sizing: border-box;
+}

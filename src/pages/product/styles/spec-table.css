@@ -1,0 +1,41 @@
+.spec-table {
+	border-collapse: collapse;
+	border-spacing: 8px;
+	width: 464px;
+}
+
+.spec-table > tbody {
+	display: grid;
+	row-gap: 8px;
+}
+
+.spec-table--full-width {
+	width: 100%;
+}
+
+/* Row */
+.spec-table__row {
+	border-bottom: 1px solid #fff;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Item */
+.spec-table__item {
+	font-family: var(--font-family-primary);
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+	font-weight: 400;
+}
+
+/* Caption */
+.spec-table__caption {
+	font-family: var(--font-family-primary);
+	font-size: 20px;
+	line-height: 32px;
+	color: #fff;
+	text-align: start;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
