@@ -1,6 +1,7 @@
 @import "../../vars.css";
 @import "../../fonts.css";
 
+
 @import "../../styles/container.css";
 @import "../../styles/header.css";
 @import "../../styles/page.css";
@@ -9,12 +10,13 @@
 @import "../../styles/input.css";
 @import "../../styles/nav.css";
 @import "../../styles/heading.css";
-@import "../../styles/btn.css";
-@import "../../styles/offer.css";
+@import "../../styles/subheading.css";
 @import "../../styles/product-card.css";
+@import "../../styles/offer.css";
+@import "../../styles/distributors.css";
+@import "../../styles/partners.css";
+@import "../../styles/welcome.css";
+@import "../../styles/btn.css";
 
-@import "./styles/product.css";
-@import "./styles/product-preview.css";
-@import "styles/spec-table.css";
-@import "styles/spec.css";
-@import "./styles/product-action.css";
+@import "./styles/auth.css";
+@import "./styles/auth-form.css";

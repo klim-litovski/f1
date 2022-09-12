@@ -1,12 +1,15 @@
 .welcome {
-	position: relative;
 	min-height: 100vh;
 	overflow: hidden;
 }
 
-.welcome:after {
+.welcome--bg-decor {
+	position: relative;
+}
+
+.welcome--bg-decor:after {
 	position: absolute;
-	content: url("../../../img/computer.png");
+	content: url("../img/computer.png");
 	top: calc(64px + var(--header-height));
 	right: 64px;
 	z-index: -10;
@@ -25,9 +28,16 @@
 	left: calc(50% - var(--width) / 2);
 }
 
+/* Body */
+.welcome__body {
+	padding-top: 128px;
+	display: grid;
+	grid-auto-flow: column;
+	column-gap: 16px;
+}
+
 /* Article */
 .welcome__article {
-	padding-top: 128px;
 	display: grid;
 	max-width: 560px;
 	row-gap: 16px;
