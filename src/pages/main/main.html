@@ -8,61 +8,61 @@
 </head>
 <body class="page__body">
 	<header class="header page__header">
-		<div class="container">
-			<div class="header__body">
-				<a class="logo header__logo" href="/">
-					<img class="logo__img" src="../../img/logo.svg" alt="F1">
-				</a>
-				<button class="catalog-btn header__catalog-btn">
-					<svg class="catalog-btn__img">
-						<use href="../../img/header-sprite.svg#list"></use>
-					</svg>
-					Каталог
-				</button>
-				<label class="input">
-					<input class="input__input" type="search" placeholder="Поиск по каталогу">
-					<svg class="input__icon">
-						<use href="../../img/header-sprite.svg#search"></use>
-					</svg>
-				</label>
-				<div class="header__nav-wrapper">
-					<nav class="nav header__nav">
-						<ul class="nav__list">
-							<li class="nav__item">
-								<a class="nav__link" href="#">О нас</a>
-							</li>
-							<li class="nav__item">
-								<a class="nav__link" href="#">Отзывы</a>
-							</li>
-							<li class="nav__item">
-								<a class="nav__link" href="#">Контакты</a>
-							</li>
-						</ul>
-					</nav>
-					<nav class="nav header__nav">
-						<ul class="nav__list">
-							<li class="nav__item">
-								<a class="nav__link" href="#">
-									<svg class="nav__link-img">
-										<use href="../../img/header-sprite.svg#cart"></use>
-									</svg>
-									Корзина
-								</a>
-							</li>
-							<li class="nav__item">
-								<a class="nav__link" href="#">
-									<svg class="nav__link-img">
-										<use href="../../img/header-sprite.svg#user"></use>
-									</svg>
-									Войти
-								</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
+	<div class="container">
+		<div class="header__body">
+			<a class="logo header__logo" href="/">
+				<img class="logo__img" src="../../img/logo.svg" alt="F1">
+			</a>
+			<button class="catalog-btn header__catalog-btn">
+				<svg class="catalog-btn__img">
+					<use href="../../img/header-sprite.svg#list"></use>
+				</svg>
+				Каталог
+			</button>
+			<div class="input input--dark header__search">
+				<input class="input__input" type="search" placeholder="Поиск по каталогу" aria-label="Поиск по каталогу">
+				<svg class="input__icon">
+					<use href="../../img/header-sprite.svg#search"></use>
+				</svg>
+			</div>
+			<div class="header__nav-wrapper">
+				<nav class="nav header__nav header__nav--hide-sm">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a class="nav__link" href="#">О нас</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#">Отзывы</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="nav nav--sm-bottom header__nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a class="nav__link" href="#">
+								<svg class="nav__link-img">
+									<use href="../../img/header-sprite.svg#cart"></use>
+								</svg>
+								Корзина
+							</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="#">
+								<svg class="nav__link-img">
+									<use href="../../img/header-sprite.svg#user"></use>
+								</svg>
+								Войти
+							</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</div>
-	</header>
+	</div>
+</header>
 	<section class="welcome page__welcome welcome--bg-decor">
 		<div class="container">
 			<div class="welcome__body">

@@ -1,0 +1,21 @@
+/* Heading */
+.auth__heading {
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+/* Sign up */
+.auth__sign-up {
+	display: block;
+	font-family: var(--font-family-primary);
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+
+/* Form */
+.sign-in__form {
+	margin-bottom: 16px;
+}

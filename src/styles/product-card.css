@@ -1,9 +1,15 @@
 .product-card {
 	background-color: var(--color-secondary);
-	max-width: 183px;
+	width: 183px;
 	border-radius: 8px;
 	box-sizing: border-box;
 	padding: 8px;
+}
+
+@media (max-width: 320px) {
+	.product-card {
+		width: 148px;
+	}
 }
 
 /* Discount */
@@ -61,4 +67,9 @@
 	text-decoration: line-through;
 	font-family: var(--font-family-primary);
 	font-weight: 300;
+}
+
+/* Img */
+.product-card__img {
+	width: 100%;
 }

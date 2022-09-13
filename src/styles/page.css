@@ -9,6 +9,12 @@
 	min-height: 100vh;
 }
 
+@media (max-width: 320px) {
+	.page__body {
+		margin-bottom: 48px;
+	}
+}
+
 /* Header */
 .page__header {
 	position: fixed;

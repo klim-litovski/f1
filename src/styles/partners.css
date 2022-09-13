@@ -8,6 +8,14 @@
 	text-align: center;
 }
 
+@media (max-width: 320px) {
+	.partners {
+		grid-auto-flow: unset;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 8px;
+	}
+}
+
 /* Item */
 .partners__item {
 	list-style: none;
@@ -16,4 +24,10 @@
 /* Img */
 .partners__img {
 	height: 128px;
+}
+
+@media (max-width: 320px) {
+	.partners__img {
+		height: 64px;
+	}
 }

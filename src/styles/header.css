@@ -24,10 +24,23 @@
 	height: 100%;
 }
 
+@media (max-width: 320px) {
+	.header__nav--hide-sm {
+		display: none;
+	}
+}
+
 /* Nav wrapper */
 .header__nav-wrapper {
 	display: grid;
 	grid-auto-flow: column;
 	column-gap: 64px;
 	margin-left: auto;
+}
+
+/* Search */
+@media (max-width: 320px) {
+	.header__search {
+		display: none;
+	}
 }

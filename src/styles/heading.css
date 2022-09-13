@@ -7,14 +7,35 @@
 	font-weight: 700;
 }
 
+@media (max-width: 320px) {
+	.heading {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}
+
 .heading--secondary {
 	font-size: 40px;
 	line-height: 48px;
 }
 
+@media (max-width: 320px) {
+	.heading--secondary {
+		font-size: 20px;
+		line-height: 32px;
+	}
+}
+
 .heading--tertiary {
 	font-size: 24px;
 	line-height: 32px;
+}
+
+@media (max-width: 320px) {
+	.heading--tertiary {
+		font-size: 20px;
+		line-height: 32px;
+	}
 }
 
 .heading--quaternary {

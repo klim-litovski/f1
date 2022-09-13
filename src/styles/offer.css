@@ -8,6 +8,12 @@
 	width: 100%;
 }
 
+@media (max-width: 320px) {
+	.offer__list {
+		overflow-x: auto;
+	}
+}
+
 .offer__list--scroll {
 	overflow-x: auto;
 }
